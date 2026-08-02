@@ -27,7 +27,8 @@ while True:
     print("3. Search Student")
     print("4. Update Student")
     print("5. Delete Student")
-    print("6. Exit")
+    print("6. Total Students")
+    print("7. Exit")
 
     try:
         choice = int(input("Enter your choice: "))
@@ -93,9 +94,9 @@ while True:
         else:
             print("Student not found.")
 
-    # Exit
+   #Total Students
     elif choice == 6:
-        print("Thank you for using Student Management System.")
+        print("\nTotal Students: ",len(students))
         break
 
     # Invalid Choice
